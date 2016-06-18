@@ -1,21 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Unicode -->
+	<meta charset="UTF-8">
+	<!-- Responsive vieport setting -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+	<!-- Normalize HTML5 Reset -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<!-- Styles.css -->
 	<link rel="stylesheet" type="text/css" href="styles.css">
-	<title>Coding Struggler</title>
+	<!-- Google Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+	<title>Coding Struggler's Story</title>
 </head>
 <body>
 	<nav>
-		<div class="wrapper">
-			<h1>Blog of Coding Struggler</h1>
+		<div class="header clearfix">
+			<div class="logo pull-left">
+				<img src="coding_struggler.jpg">
+			</div>
+			<h1 class="pull-left">Coding<br>Struggler's<br>Story</h1>
 		</div>
-		<div class="nav-bar">
+		<div class="nav-bar navbar-inverse">
 			<ul>
-				<li>Home</li>
-				<li>Playground</li>
-				<li>About</li>
-				<li>Contact</li>
+				<li><a>Blog</a></li>
+				<li><a>Playground</a></li>
+				<li><a>About</a></li>
+				<li><a>Contact</a></li>
+				<label for="search"><span class="glyphicon glyphicon-search"></span></label>
+				<input type="search" id="search" placeholder="Ruby on Rails">
 			</ul>
 		</div>
 	</nav>
@@ -28,5 +43,11 @@
 	<footer>
 		
 	</footer>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<!-- jQuery cdn -->
+	<script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
+	<!-- Global js file -->
+	<script type="text/javascript" src="global.js"></script>
 </body>
 </html>
