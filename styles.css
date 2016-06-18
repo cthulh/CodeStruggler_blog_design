@@ -99,6 +99,8 @@ input[type="search"] {
 
 label[for="search"] {
 	padding: 0.3em;
+	padding-left: 1.5em;
+	border-left: solid 2px #ab2905;
 }
 
 #responsive-menu span {
