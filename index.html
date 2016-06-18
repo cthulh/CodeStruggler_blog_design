@@ -13,53 +13,231 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<!-- Google Fonts -->
 	<link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+	<!-- Font Awesome! -->
+	<script src="https://use.fontawesome.com/16f2b8cc35.js"></script>
 	<title>Coding Struggler's Story</title>
 </head>
 <body>
-	<nav>
-		<div class="header clearfix">
-			<div class="logo pull-left">
-				<img src="coding_struggler.jpg">
-			</div>
-			<h1 class="pull-left">Coding<br>Struggler's<br>Story</h1>
-		</div>
-		<div class="nav-bar navbar-inverse clearfix">
-			<ul class="navigation">
-				<li><a>Blog</a></li>
-				<li><a>Playground</a></li>
-				<li><a>About</a></li>
-				<li><a>Contact</a></li>
-			</ul>
-			<label for="search"><span class="glyphicon glyphicon-search"></span></label>
-			<input type="search" id="search" placeholder="Ruby on Rails">
-		</div>
-	</nav>
-	<main>
-		<!-- all posts sorted by date -->
-		<div class="post_wrapper">
-			<div class="post_title">
-				<h2>Title of the post goes here!</h2>
-			</div>
-			<div class="post_info">
-			<p class="when_posted">Posted: 27 May 2016</p>
-			<p class="tags">Tags: <span class="label label-default">HTML5</span>, <span class="label label-default">CSS3</span>, <span class="label label-default">Ruby on Rails</span>, <span class="label label-default">Bootstrap</span>, <span class="label label-default">jQuery</span></p>
-			</div>
-			<div class="post_preview">
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-			</div>
-			<div class="post_footer">
-				<div class="buttons">
-					<button class="read_more">Read More</button>
+	<div class="container-fluid">
+		<nav>
+			<div class="header clearfix">
+				<div class="logo pull-left">
+					<img src="https://s3-eu-west-1.amazonaws.com/codestraggler/images/coding_struggler.jpg">
 				</div>
-				<div class="comments_count">
-					<a href="#"><i class="fa fa-comments"></i>5</a>
+				<h1 class="pull-left">Coding<br>Struggler's<br>Story...</h1>
+			</div>
+			<div class="nav-bar navbar-inverse clearfix">
+				<ul class="navigation">
+					<li><a>Blog</a></li>
+					<li><a>Playground</a></li>
+					<li><a>About</a></li>
+					<li><a>Contact</a></li>
+				</ul>
+				<label for="search"><span class="glyphicon glyphicon-search"></span></label>
+				<input type="search" id="search" placeholder="Ruby on Rails">
+			</div>
+		</nav>
+		<main>
+			<!-- all posts sorted by date -->
+			<!-- SINGLE POST ENTRY STARTS HERE -->
+			<div class="post_wrapper">
+				<div class="post_title">
+					<h2>Title of the post goes here!</h2>
 				</div>
-			</div> <!-- /post_footer -->
-		</div> <!-- /post_wrapper -->
-	</main>
-	<footer>
-		
-	</footer>
+				<div class="post_info">
+				<p class="when_posted">Posted: 27 May 2016</p>
+				<p class="tags">Tags: <span class="label label-default">HTML5</span> <span class="label label-default">CSS3</span> <span class="label label-default">Ruby on Rails</span> <span class="label label-default">Bootstrap</span> <span class="label label-default">jQuery</span></p>
+				</div>
+				<div class="post_preview">
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+				</div>
+				<div class="post_footer clearfix">
+					<div class="buttons">
+						<button class="btn btn-default pull-left">Read More</button>
+					</div>
+					<div class="comments_count">
+						<a href="#" class="pull-right"><i class="fa fa-commenting-o" aria-hidden="true"></i>10</a>
+					</div>
+				</div> <!-- /post_footer -->
+			</div> <!-- /post_wrapper -->
+			<!-- SINGLE POST ENTRY ENDS HERE -->
+			<!-- NEXT POST -->
+			<div class="post_wrapper">
+				<div class="post_title">
+					<h2>Title of the post goes here!</h2>
+				</div>
+				<div class="post_info">
+				<p class="when_posted">Posted: 27 May 2016</p>
+				<p class="tags">Tags: <span class="label label-default">HTML5</span> <span class="label label-default">CSS3</span> <span class="label label-default">Ruby on Rails</span> <span class="label label-default">Bootstrap</span> <span class="label label-default">jQuery</span></p>
+				</div>
+				<div class="post_preview">
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+				</div>
+				<div class="post_footer clearfix">
+					<div class="buttons">
+						<button class="btn btn-default pull-left">Read More</button>
+					</div>
+					<div class="comments_count">
+						<a href="#" class="pull-right"><i class="fa fa-commenting-o" aria-hidden="true"></i>10</a>
+					</div>
+				</div> <!-- /post_footer -->
+			</div> <!-- /post_wrapper -->
+			<div class="post_wrapper">
+				<div class="post_title">
+					<h2>Title of the post goes here!</h2>
+				</div>
+				<div class="post_info">
+				<p class="when_posted">Posted: 27 May 2016</p>
+				<p class="tags">Tags: <span class="label label-default">HTML5</span> <span class="label label-default">CSS3</span> <span class="label label-default">Ruby on Rails</span> <span class="label label-default">Bootstrap</span> <span class="label label-default">jQuery</span></p>
+				</div>
+				<div class="post_preview">
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+				</div>
+				<div class="post_footer clearfix">
+					<div class="buttons">
+						<button class="btn btn-default pull-left">Read More</button>
+					</div>
+					<div class="comments_count">
+						<a href="#" class="pull-right"><i class="fa fa-commenting-o" aria-hidden="true"></i>10</a>
+					</div>
+				</div> <!-- /post_footer -->
+			</div> <!-- /post_wrapper -->
+			<div class="post_wrapper">
+				<div class="post_title">
+					<h2>Title of the post goes here!</h2>
+				</div>
+				<div class="post_info">
+				<p class="when_posted">Posted: 27 May 2016</p>
+				<p class="tags">Tags: <span class="label label-default">HTML5</span> <span class="label label-default">CSS3</span> <span class="label label-default">Ruby on Rails</span> <span class="label label-default">Bootstrap</span> <span class="label label-default">jQuery</span></p>
+				</div>
+				<div class="post_preview">
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+				</div>
+				<div class="post_footer clearfix">
+					<div class="buttons">
+						<button class="btn btn-default pull-left">Read More</button>
+					</div>
+					<div class="comments_count">
+						<a href="#" class="pull-right"><i class="fa fa-commenting-o" aria-hidden="true"></i>10</a>
+					</div>
+				</div> <!-- /post_footer -->
+			</div> <!-- /post_wrapper -->
+			<div class="post_wrapper">
+				<div class="post_title">
+					<h2>Title of the post goes here!</h2>
+				</div>
+				<div class="post_info">
+				<p class="when_posted">Posted: 27 May 2016</p>
+				<p class="tags">Tags: <span class="label label-default">HTML5</span> <span class="label label-default">CSS3</span> <span class="label label-default">Ruby on Rails</span> <span class="label label-default">Bootstrap</span> <span class="label label-default">jQuery</span></p>
+				</div>
+				<div class="post_preview">
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+				</div>
+				<div class="post_footer clearfix">
+					<div class="buttons">
+						<button class="btn btn-default pull-left">Read More</button>
+					</div>
+					<div class="comments_count">
+						<a href="#" class="pull-right"><i class="fa fa-commenting-o" aria-hidden="true"></i>10</a>
+					</div>
+				</div> <!-- /post_footer -->
+			</div> <!-- /post_wrapper -->
+			<div class="post_wrapper">
+				<div class="post_title">
+					<h2>Title of the post goes here!</h2>
+				</div>
+				<div class="post_info">
+				<p class="when_posted">Posted: 27 May 2016</p>
+				<p class="tags">Tags: <span class="label label-default">HTML5</span> <span class="label label-default">CSS3</span> <span class="label label-default">Ruby on Rails</span> <span class="label label-default">Bootstrap</span> <span class="label label-default">jQuery</span></p>
+				</div>
+				<div class="post_preview">
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+				</div>
+				<div class="post_footer clearfix">
+					<div class="buttons">
+						<button class="btn btn-default pull-left">Read More</button>
+					</div>
+					<div class="comments_count">
+						<a href="#" class="pull-right"><i class="fa fa-commenting-o" aria-hidden="true"></i>10</a>
+					</div>
+				</div> <!-- /post_footer -->
+			</div> <!-- /post_wrapper -->
+			<div class="post_wrapper">
+				<div class="post_title">
+					<h2>Title of the post goes here!</h2>
+				</div>
+				<div class="post_info">
+				<p class="when_posted">Posted: 27 May 2016</p>
+				<p class="tags">Tags: <span class="label label-default">HTML5</span> <span class="label label-default">CSS3</span> <span class="label label-default">Ruby on Rails</span> <span class="label label-default">Bootstrap</span> <span class="label label-default">jQuery</span></p>
+				</div>
+				<div class="post_preview">
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+				</div>
+				<div class="post_footer clearfix">
+					<div class="buttons">
+						<button class="btn btn-default pull-left">Read More</button>
+					</div>
+					<div class="comments_count">
+						<a href="#" class="pull-right"><i class="fa fa-commenting-o" aria-hidden="true"></i>10</a>
+					</div>
+				</div> <!-- /post_footer -->
+			</div> <!-- /post_wrapper -->
+			<div class="post_wrapper">
+				<div class="post_title">
+					<h2>Title of the post goes here!</h2>
+				</div>
+				<div class="post_info">
+				<p class="when_posted">Posted: 27 May 2016</p>
+				<p class="tags">Tags: <span class="label label-default">HTML5</span> <span class="label label-default">CSS3</span> <span class="label label-default">Ruby on Rails</span> <span class="label label-default">Bootstrap</span> <span class="label label-default">jQuery</span></p>
+				</div>
+				<div class="post_preview">
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+				</div>
+				<div class="post_footer clearfix">
+					<div class="buttons">
+						<button class="btn btn-default pull-left">Read More</button>
+					</div>
+					<div class="comments_count">
+						<a href="#" class="pull-right"><i class="fa fa-commenting-o" aria-hidden="true"></i>10</a>
+					</div>
+				</div> <!-- /post_footer -->
+			</div> <!-- /post_wrapper -->
+			<div class="post_wrapper">
+				<div class="post_title">
+					<h2>Title of the post goes here!</h2>
+				</div>
+				<div class="post_info">
+				<p class="when_posted">Posted: 27 May 2016</p>
+				<p class="tags">Tags: <span class="label label-default">HTML5</span> <span class="label label-default">CSS3</span> <span class="label label-default">Ruby on Rails</span> <span class="label label-default">Bootstrap</span> <span class="label label-default">jQuery</span></p>
+				</div>
+				<div class="post_preview">
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+				</div>
+				<div class="post_footer clearfix">
+					<div class="buttons">
+						<button class="btn btn-default pull-left">Read More</button>
+					</div>
+					<div class="comments_count">
+						<a href="#" class="pull-right"><i class="fa fa-commenting-o" aria-hidden="true"></i>10</a>
+					</div>
+				</div> <!-- /post_footer -->
+			</div> <!-- /post_wrapper -->
+		</main>
+		<aside>	
+			<div class="subscribe_box">
+				<header>
+					<h2>Subscribe for updates</h2>
+				</header>
+				<div class="email_box">
+					<input type="email" id="email" placeholder="your@email.address">
+					<button class="btn btn-default">Subscribe</button>
+				</div>
+			</div>
+		</aside>
+		<footer>
+			<p class="copyright">&copy; 2016 All rightes reserved</p>
+		</footer>
+	</div>
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 	<!-- Bootstrap minified -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
